@@ -34,6 +34,22 @@ pnpm i
 pnpm start
 ```
 
+### 🚀 Instant HTTPS with Cloudflare Tunnel
+
+Get your Space app online instantly with valid SSL certificates (no domain required):
+
+```
+pnpm run start-tunnel
+```
+
+This gives you:
+- ✅ **Free HTTPS** with `.trycloudflare.com` URL
+- ✅ **Works with all proxy pages** (no cert errors!)
+- ✅ **No firewall configuration needed**
+- ✅ **Auto-installs cloudflared** for you
+
+Perfect for development, testing, and sharing! See [CLOUDFLARE-TUNNEL-GUIDE.md](./CLOUDFLARE-TUNNEL-GUIDE.md) for details.
+
 ### Updating
 
 ```

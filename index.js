@@ -22,6 +22,9 @@ const HTTPS_PORT = process.env.HTTPS_PORT || 6443;
 const certPath = path.join(__dirname, 'certs', 'server.crt');
 const keyPath = path.join(__dirname, 'certs', 'server.key');
 
+// Trust Cloudflare proxy - REQUIRED for trycloudflare.com
+app.set('trust proxy', true);
+
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
