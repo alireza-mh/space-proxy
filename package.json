@@ -6,7 +6,9 @@
 	"scripts": {
 		"start": "node index.js",
 		"tunnel": "node scripts/setup-tunnel.js",
+		"tunnel-simple": "node scripts/tunnel-simple.js",
 		"start-tunnel": "node scripts/start-with-tunnel.js",
+		"diagnose-tunnel": "node scripts/diagnose-tunnel.js",
 		"format": "prettier --write .",
 		"generate-ssl": "node scripts/generate-ssl.js"
 	},
